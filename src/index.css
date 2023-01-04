@@ -1,13 +1,157 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+*{
+    /* border: 1px solid black; */
+    font-family: 'Open Sans', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.location{
+    color: #fff;
+}
+
+.carousel-item img{
+    height: 250px;
+    /* border-radius: 10px; */
+}
+
+
+
+.product img{
+    height: 180px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product{
+   border-radius: 10px;
+}
+
+.product h1{
+    font-size: 25px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.product p{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.product button{
+    width: 100px;
+}
+
+
+.pricing{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.category{
+    text-align: center;
+    margin: 10px;
+}
+
+.category img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.coming-soon img{
+    filter: grayscale(100%);
+}
+
+.coming-soon{
+    position: relative;
+}
+
+
+
+#categories{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.coming-para{
+    position: absolute;
+    bottom: -10px;
+    font-size: 8px;
+    left: 19px;
+    color: red;
+    text-transform: uppercase;
+}
+
+.bottom-nav{
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 60px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: red;
+}
+
+.nav-links li{
+ text-align: center;
+}
+
+.nav-links p{
+    font-size: 15px;
+}
+
+
+.price-calculator{
+    background-color: aliceblue;
+}
+
+#final-price{
+    font-size: 50px;
+}
+
+.bottom-nav-price{
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 80px;
+}
+
+.price-calc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.back{
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.product a{
+    text-decoration: none;
+    color: black;
+}
+
+.certificate-logo{
+   transform: scale(60%);
 }
